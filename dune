@@ -1,3 +1,4 @@
 (library (name printers) (modules printers))
 
+(executable (name ch6) (modules ch6) (libraries printers))
 (executable (name ch8) (modules ch8) (libraries printers))
